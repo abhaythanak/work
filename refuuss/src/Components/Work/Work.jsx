@@ -12,8 +12,8 @@ export default function Work() {
         {url: "https://images.unsplash.com/photo-1720949442867-77cfc1414b5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNzJ8fHxlbnwwfHx8fHw%3D", top: "55%", left: "52%", isActive: false},
     ]
   return (
-    <div className='w-full'>
-      <div className="relative max-w-screen-xl mx-auto text-center mt-20">
+    <div className='w-full mt-20'>
+      <div className="relative max-w-screen-xl mx-auto text-center ">
         <h1 className='text-[25vw] leading-none font-medium tracking-tight select-none mt-'>WORK</h1>
         <div className="absolute top-0 w-full h-full ">
             {images.map((ele,i)=>ele.isActive && (
