@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function Card({width, start, para}) {
+export default function Card({width, start, para, Hover}) {
   return (
-    <div className={`${width}  bg-zinc-800 p-5 rounded-xl min-h-[30rem] flex flex-col justify-between`}>
+    <div className={`${width} ${Hover}   bg-zinc-800 p-5 rounded-xl min-h-[30rem] flex flex-col justify-between`}>
       <div className="w-full">
         <div className="w-full flex justify-between items-center">
           <h3>one heading</h3>

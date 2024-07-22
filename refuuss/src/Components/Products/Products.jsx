@@ -11,10 +11,13 @@ export default function Products() {
       ];
 
   return (
-    <div className="container mx-auto px-4">
+    <div className="container mx-auto px-4 relative">
       {products.map((val, index) => (
         <Product key={index} val={val} />
       ))}
+      <div className="absolute top-0 w-full h-full pointer-events-none">
+        <div className="window absolute w-[32rem] h-[32rem] bg-white left-[44%]"></div>
+      </div>
     </div>
   );
 }
